@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JohnFrankline Odongo | Aspiring Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Orbitron:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <!-- Cursor Trail -->
+    <div class="cursor-trail"></div>
+    
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">JFO<span class="dot">.</span></a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="typewriter">
+                <h1 class="animate__animated animate__fadeInDown">Hi, I'm <span class="highlight">JohnFrankline Odongo</span></h1>
+                <div class="typing-text">
+                    <span id="typed-text"></span><span class="cursor">|</span>
+                </div>
+            </div>
+            <p class="subtitle animate__animated animate__fadeInUp">Aspiring Full-Stack Developer • Creative Problem Solver • Tech Enthusiast</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn neon-btn">View My Work</a>
+                <a href="#contact" class="btn outline-btn">Get In Touch</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll Down</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title">About <span class="highlight">Me</span></h2>
+        <div class="about-container">
+            <div class="about-card glass">
+                <div class="profile-img">
+                    <div class="img-placeholder">
+                        <i class="fas fa-user-astronaut"></i>
+                    </div>
+                    <div class="status-indicator"></div>
+                </div>
+                <h3>Web Developer in Training</h3>
+                <p>Currently a student passionate about creating interactive, user-friendly web experiences. Always learning and experimenting with new technologies.</p>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Nairobi, Kenya (UTC+3)</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div>
+                            <h4>Education</h4>
+                            <p>Computer Science Student</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="about-content">
+                <h3>My Coding Journey</h3>
+                <p>Started with HTML/CSS and fell in love with bringing ideas to life in the browser. Currently expanding my skills in backend technologies and JavaScript frameworks.</p>
+                
+                <div class="journey-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>Started Web Development</h4>
+                            <p>Mastered HTML5 & CSS3 fundamentals</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>Added JavaScript</h4>
+                            <p>Built interactive web applications</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>Backend Exploration</h4>
+                            <p>Learning Python/Django & PHP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section dark">
+        <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+        <div class="skills-container">
+            <div class="skills-grid">
+                <!-- HTML Skill -->
+                <div class="skill-card glass">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <h3>HTML5</h3>
+                    </div>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar" data-level="100">
+                            <div class="skill-level html"></div>
+                            <span class="skill-percent">100%</span>
+                        </div>
+                    </div>
+                    <p>Semantic markup, accessibility, modern HTML5 APIs</p>
+                </div>
+
+                <!-- CSS Skill -->
+                <div class="skill-card glass">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <h3>CSS3</h3>
+                    </div>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar" data-level="100">
+                            <div class="skill-level css"></div>
+                            <span class="skill-percent">100%</span>
+                        </div>
+                    </div>
+                    <p>Flexbox, Grid, animations, responsive design</p>
+                </div>
+
+                <!-- JavaScript Skill -->
+                <div class="skill-card glass">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar" data-level="80">
+                            <div class="skill-level js"></div>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                    </div>
+                    <p>ES6+, DOM manipulation, async programming</p>
+                </div>
+
+                <!-- Python/Django Skill -->
+                <div class="skill-card glass">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <h3>Python/Django</h3>
+                    </div>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar" data-level="60">
+                            <div class="skill-level python"></div>
+                            <span class="skill-percent">60%</span>
+                        </div>
+                    </div>
+                    <p>Backend development, Django framework, REST APIs</p>
+                </div>
+
+                <!-- PHP Skill -->
+                <div class="skill-card glass">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fab fa-php"></i>
+                        </div>
+                        <h3>PHP</h3>
+                    </div>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar" data-level="80">
+                            <div class="skill-level php"></div>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                    </div>
+                    <p>Server-side scripting, Laravel basics, MySQL integration</p>
+                </div>
+
+                <!-- Java Skill -->
+                <div class="skill-card glass">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fab fa-java"></i>
+                        </div>
+                        <h3>Java</h3>
+                    </div>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar" data-level="30">
+                            <div class="skill-level java"></div>
+                            <span class="skill-percent">30%</span>
+                        </div>
+                    </div>
+                    <p>OOP concepts, basic syntax, Android development basics</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2 class="section-title">My <span class="highlight">Projects</span></h2>
+        <div class="projects-container">
+            <div class="project-card glass">
+                <div class="project-image">
+                    <div class="project-tags">
+                        <span class="tag">HTML/CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Interactive Portfolio</h3>
+                    <p>This very website! Built with pure HTML, CSS, and JavaScript featuring particle effects, animations, and interactive elements.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card glass">
+                <div class="project-image">
+                    <div class="project-tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">API</span>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Weather Dashboard</h3>
+                    <p>A responsive weather application using OpenWeather API with dynamic backgrounds based on weather conditions.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/jfankline" target="_blank" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card glass">
+                <div class="project-image">
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Django</span>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Task Manager</h3>
+                    <p>Full-stack task management application with user authentication, CRUD operations, and real-time updates.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/jfankline" target="_blank" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section dark">
+        <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+        <div class="contact-container">
+            <div class="contact-info glass">
+                <h3>Contact Information</h3>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <a href="mailto:johnfranklineodongo@gmail.com" class="contact-link" id="emailLink">
+                            johnfranklineodongo@gmail.com
+                        </a>
+                        <button class="copy-btn" data-clipboard-text="johnfranklineodongo@gmail.com">
+                            <i class="far fa-copy"></i> Copy
+                        </button>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <a href="tel:+254114602235" class="contact-link">+254 114 602 235</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <div>
+                        <h4>GitHub</h4>
+                        <a href="https://github.com/jfankline" target="_blank" class="contact-link">github.com/jfankline</a>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://github.com/jfankline" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                </div>
+            </div>
+
+            <form class="contact-form glass" id="contactForm">
+                <h3>Send Me a Message</h3>
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                    <i class="fas fa-comment"></i>
+                </div>
+                <button type="submit" class="btn neon-btn submit-btn">
+                    <span class="btn-text">Send Message</span>
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+                <div class="form-status" id="formStatus"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Made with <i class="fas fa-heart pulse"></i> by JohnFrankline Odongo</p>
+            <p>&copy; <span id="currentYear"></span> | VASTMAX SOFTWARES</p>
+            <div class="footer-links">
+                <a href="#home">Home</a> •
+                <a href="#about">About</a> •
+                <a href="#skills">Skills</a> •
+                <a href="#projects">Projects</a> •
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Console Easter Egg -->
+    <div class="console" id="console">
+        <div class="console-header">
+            <span>Developer Console</span>
+            <button class="console-close" id="consoleClose">&times;</button>
+        </div>
+        <div class="console-body">
+            <div class="console-output" id="consoleOutput">
+                > Welcome to my portfolio!<br>
+                > Type 'help' for available commands
+            </div>
+            <div class="console-input">
+                <span>></span>
+                <input type="text" id="consoleInput" placeholder="Type a command...">
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="particles-config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
