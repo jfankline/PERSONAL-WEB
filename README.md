@@ -32,7 +32,7 @@ Welcome to my interactive web developer portfolio! This website showcases my ski
 
 ## Skill Showcase
 
-The portfolio displays my proficiency levels in:
+The portfolio displays my proficiency levels in the following languages:
 - **HTML**: 100%
 - **CSS**: 100%
 - **JavaScript**: 80%
